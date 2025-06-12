@@ -33,6 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 8px;
 }
 
 .close-button {
@@ -60,10 +61,35 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-top: 15px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin-top: 15px;
+  margin-left : 10px;
+}
+.container{
+  display: flex;
+}
+.part2{
+  width: 80%;
+  margin: 8px;
+  padding: 8px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /*margin: 8px;*/
+  box-sizing: border-box;
+}
+.header{
+  font-weight: 900;
+  font-size: 20px
+}
+.text{
+  margin-top: 10px;
 }
